@@ -132,6 +132,7 @@ address {
   line-height: 1.5;
   font-weight: 700;
   transition: all 0.5s ease;
+  text-transform: uppercase;
 }
 .button:hover {
   background: #fff;
@@ -309,8 +310,8 @@ address {
 .services__list {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
-  margin: 0 0 5rem 0;
+  gap: 8rem;
+  margin: 0 0 6rem 0;
 }
 .services__item {
   display: flex;
@@ -319,6 +320,10 @@ address {
   gap: 6.4rem;
   padding: 0 11.8rem;
   text-align: left;
+}
+.services__item-img {
+  box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
+  border-radius: 24px;
 }
 .services__item-title {
   font-family: "Open Sans Condensed", Arial, sans-serif;
