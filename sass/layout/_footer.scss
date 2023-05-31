@@ -1,0 +1,33 @@
+@import '../abstract/variables';
+@import '../abstract/mixins';
+
+.footer {
+   padding: 3.2rem 0;
+   background: $secondary-text-color;
+
+   &__container {
+      @include flex;
+   }
+
+   &__logo {
+      color: #fff;
+
+      &:active {
+         color: #fff;
+         opacity: 0.6;
+      }
+   }
+
+   & .navigation__item {
+      color: #fff;
+
+      &:hover {
+         color: $brand-color;
+      }
+
+      &:active {
+         color: #fff;
+         opacity: 0.6;
+      }
+   }
+}
